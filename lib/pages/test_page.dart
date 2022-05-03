@@ -11,7 +11,11 @@ class _TestPageState extends State<TestPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text('fewgf')),
+      appBar: AppBar(
+        title: Text('Shapka'),
+      ),
+      body: Center(
+          child: Text('Men ozumun jumushtarymy atkardym ===> Tynchtykbek')),
     );
   }
 }
